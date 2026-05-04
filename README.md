@@ -1,21 +1,21 @@
-Please note that due to asset pack licence and resulting limitations to redistribute assets. This project only contains the assets that are distrubited in the CC0 flagged folder. Other assets will have to be downloaded and added manually from https://pixelfrog-assets.itch.io/tiny-swords
+# Knight's Isle
+is it a 2D action-adventure game in which you play as a lone knight on vast islands. From the starting point, the knight will be, the knight will discover new lands, battle dangerous enemies , and collect hidden treasures hidden throughout the world.
 
-That includes: 
-Bushe1
-Bushe2
-Bushe3
-Tree3
-Tree4
-Water Foam
-Clouds_01
-Clouds_02
-Clouds_03
-Clouds_04
-Clouds_05
-Clouds_06
-Clouds_07
-Clouds_08
-Shadow
-Tilemap_color1
-Tilemap_color3
-Water Background color
+## Build with
+Engine: Godot Engine
+Language: GDScript
+
+## Controls
+Movement: WASD
+Attack: Point your cursor where you want to strike, then left-click to attack
+
+## Development Status
+The Game is currently in development. The core mechanics are implemented and the game is playable. Planned future additions include:--
+- Additional enemy types
+- More island areas to explore
+- Extended treasure and loot system
+- Sound design and music
+
+## License
+This project is licensed under the MIT License.
+

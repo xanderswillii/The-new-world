@@ -19,3 +19,5 @@ The Game is currently in development. The core mechanics are implemented and the
 ## License
 This project is licensed under the MIT License.
 
+## AI Use
+No AI was used for this project

@@ -1,9 +1,7 @@
 [gd_scene format=3 uid="uid://c20vt1lqtu5p8"]
 
 [ext_resource type="Script" uid="uid://3pe4mrm2wifu" path="res://scenes/entities/player/player.gd" id="1_635qg"]
-
-[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_1hmtu"]
-load_path = "res://.godot/imported/Warrior_Blue.png-1a748cfb40080aa67707a1343f9490d8.ctex"
+[ext_resource type="Texture2D" uid="uid://duxxns3ul1l5m" path="res://Warrior_Blue.png" id="2_635qg"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_635qg"]
 radius = 23.021729
@@ -392,7 +390,7 @@ script = ExtResource("1_635qg")
 
 [node name="Sprite2D" type="Sprite2D" parent="." unique_id=411081831]
 position = Vector2(0, -32)
-texture = SubResource("CompressedTexture2D_1hmtu")
+texture = ExtResource("2_635qg")
 flip_h = true
 hframes = 6
 vframes = 8

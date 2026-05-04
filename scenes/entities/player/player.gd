@@ -27,6 +27,7 @@ var hitpoints_max: int
 
 
 func _ready() -> void:
+	$Sprite2D.visible = true
 	hitpoints_max = hitpoints
 	animation_tree.set_active(true)
 	calculate_stats()
@@ -57,7 +58,7 @@ func movement_loop() -> void:
 	move_and_slide()
 
 	# Sprite flipping  (only in idle/run)
-	if state == State.IDLE or State.RUN:
+	if state == State.IDLE or state == State.RUN:
 		if move_direction.x < -0.01:
 			$Sprite2D.flip_h = true
 		elif move_direction.x > 0.01:
